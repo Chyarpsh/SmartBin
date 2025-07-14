@@ -2,10 +2,10 @@
 
 SmartBin is a mobile-first, AI-powered web app that helps users classify waste, reduce landfill, and live sustainably. It supports multiple input methods (text, voice, image scan) and provides smart suggestions for proper disposal and reuse.
 
-> 🛠️ Built as a real-world capstone project to showcase full-stack development, AI integration, and cloud-readiness — ideal for portfolios, recruiters, and real users.
+> Built as a real-world capstone project to showcase full-stack development, AI integration, and cloud-readiness — ideal for portfolios, recruiters, and real users.
 
 
-## 📌 Features
+## Features
 
 - **User Authentication** – Secure login, signup, logout, and password/email change via Firebase
 - **Multi-Modal Input**
