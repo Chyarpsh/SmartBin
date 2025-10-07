@@ -1,0 +1,19 @@
+/* Ensure mobile scaling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9f6d6;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+}
+/* Reset some default styles */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

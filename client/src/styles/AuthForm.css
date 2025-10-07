@@ -1,0 +1,21 @@
+.forgot-password {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 4px;
+  font-size: 0.9em;
+  text-align: left;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+.forgot-password {
+  width: 10%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background-color 0.3s ease;}

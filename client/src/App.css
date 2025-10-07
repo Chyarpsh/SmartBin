@@ -1,0 +1,126 @@
+:root {
+  --forest-dark: #2e2109;
+  --tree-bark: #6d4419;
+  --sand-light: hsl(198, 27%, 38%);
+  --leaf-green: #d4e780;
+  --earth-green: #5e7300;
+}
+
+/* App-wide reset + background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--leaf-green);
+  color: var(--forest-dark);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--earth-green);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: var(--tree-bark);
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 160px;
+  z-index: 1000;
+}
+
+.dropdown-content a,
+.dropdown-content button {
+  color: var(--earth-green);
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-content a:hover,
+.dropdown-content button:hover {
+  background-color: var(--leaf-green);
+  color: var(--forest-dark);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Buttons */
+button {
+  background-color: var(--sand-light);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--sand-light);
+  color: var(--forest-dark);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid var(--tree-bark);
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+}
+
+/* Font Size Modes */
+.settings-page.normal {
+  font-size: 1rem;
+}
+
+.settings-page.large {
+  font-size: 1.25rem;
+}
+
+/* High Contrast Mode */
+.settings-page.high-contrast {
+  background-color: rgba(189, 147, 11, 0.906);
+  color: rgb(2, 8, 56);
+}
+
+.settings-page.high-contrast input,
+.settings-page.high-contrast select,
+.settings-page.high-contrast textarea,
+.settings-page.high-contrast button {
+  background-color: #79b2f7c2;
+  color: rgb(6, 2, 0);
+  border: 1px solid rgb(255, 0, 247);
+}
+
