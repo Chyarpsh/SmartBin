@@ -1,0 +1,77 @@
+{
+  "plastic bottle": {
+    "category": "Recyclable",
+    "disposal_tip": "Rinse and remove the cap before recycling.",
+    "reuse_tip": "Make a bird feeder or self-watering planter."
+  },
+  "glass jar": {
+    "category": "Recyclable",
+    "disposal_tip": "Clean and dry before placing in recycling bin.",
+    "reuse_tip": "Use as food storage or for crafts."
+  },
+  "newspaper": {
+    "category": "Recyclable",
+    "disposal_tip": "Stack neatly for paper recycling.",
+    "reuse_tip": "Use for gift wrap or cleaning windows."
+  },
+  "aluminum can": {
+    "category": "Recyclable",
+    "disposal_tip": "Rinse and crush to save space.",
+    "reuse_tip": "Turn into pen holders or art projects."
+  },
+  "banana peel": {
+    "category": "Compostable",
+    "disposal_tip": "Place in a compost bin or bury in garden soil.",
+    "reuse_tip": "Use to fertilize plants or polish shoes."
+  },
+  "apple core": {
+    "category": "Compostable",
+    "disposal_tip": "Ideal for compost bins.",
+    "reuse_tip": "Feed to backyard animals or compost."
+  },
+  "vegetable scraps": {
+    "category": "Compostable",
+    "disposal_tip": "Save for homemade stock or compost.",
+    "reuse_tip": "Make vegetable broth or compost."
+  },
+  "envelope": {
+    "category": "Paper",
+    "disposal_tip": "Recycle clean envelopes, remove plastic window.",
+    "reuse_tip": "Use as note paper or bookmarks."
+  },
+  "magazine": {
+    "category": "Paper",
+    "disposal_tip": "Remove plastic wrap before recycling.",
+    "reuse_tip": "Use for art or collages."
+  },
+  "mobile phone": {
+    "category": "E-waste",
+    "disposal_tip": "Take to certified e-waste center.",
+    "reuse_tip": "Use for spare parts or donate."
+  },
+  "old charger": {
+    "category": "E-waste",
+    "disposal_tip": "Recycle at electronic collection points.",
+    "reuse_tip": "Donate to local tech repair shops."
+  },
+  "battery": {
+    "category": "Hazardous",
+    "disposal_tip": "Use designated battery disposal bins.",
+    "reuse_tip": "Use rechargeable alternatives."
+  },
+  "paint can": {
+    "category": "Hazardous",
+    "disposal_tip": "Take to hazardous waste disposal centers.",
+    "reuse_tip": "Reuse leftover paint or donate."
+  },
+  "chip bag": {
+    "category": "Non-recyclable",
+    "disposal_tip": "Dispose in landfill waste.",
+    "reuse_tip": "Use in crafts or as packing material."
+  },
+  "styrofoam cup": {
+    "category": "Non-recyclable",
+    "disposal_tip": "Dispose in regular trash.",
+    "reuse_tip": "Use for DIY insulation or crafts."
+  }
+}
